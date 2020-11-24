@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 aside {
   padding-right: 10px;
   margin-right: 10px;
@@ -11,14 +15,11 @@ aside {
   position: sticky;
   top:0;
   padding: 0px;
+  border: 0.5px solid #01796f;
 }
 
 ul{
   list-style-type: none;
-}
-
-* {
-  text-align: center;
 }
 
 body{
@@ -30,7 +31,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 1%;
+  padding: 0.4%;
   background-color: gray;
 }
 
@@ -50,7 +51,7 @@ body{
 header{
   position: relative;
   text-align: center;
- color: white;
+  color: white;
   background-color: gray;
 }
 
@@ -64,4 +65,43 @@ footer{
   line-height: 50px;
   background-color: #C0C0C0;
   color: black;
+}
+
+.tic,
+.dom,
+.responsive {
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4%;
+  background-color: gray;
+  display: block;
+  line-height: 50px;
+}
+
+.first{
+  width: 40%;
+  height: 40%;
+  margin-left: 350px;
+  margin-right: 100px;
+  padding: 0.4%;
+  background-color: gray;
+}
+
+.css{
+  margin-left: 250px;
+}
+
+.text{
+  margin-left: 280px;
+}
+
+.game{
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.texts{
+  margin-left:200px;
 }

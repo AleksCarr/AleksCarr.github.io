@@ -3,16 +3,21 @@
 
 <head>
   <meta charet='UTF-8'>
+  <link rel='stylesheet' href='styles.css'/>
   <title>Aleks Carrs Project Page</title>
 </head>
 <header>
   <h1>Aleks Carrs Project Page</h1>
+  <img  class = 'header' src = 'images/IMG_2021.JPG'/>
+</header>
   <aside>
     <nav>
-      Home
-      Projects
-      Resume
-      Biography
+      <ul>
+        <li><a class='nav' href='index.html'>Home</a></li>
+        <li><a class='nav' href='projects.html'>Projects</a></li>
+        <li><a class='nav' href='resume.html'>Resume</a></li>
+        <li><a class='nav' href='bio.html'>Biography</a></li>
+      </ul>
     </nav>
   </aside>
 </header>
@@ -20,32 +25,43 @@
 <body>
   <section>
     <h2>Tic-Tac-toe</h2>
+    <img class='tic' src = 'images/tic-tac-toe.gif'/>
     <p>A web based game of tic-tac-toe Where we first learned how to do partner work.
       It is fully operational, it includes a randomizing symbol, every win condition,
-      and teels you what sumbol is up.</p>
+      and teels you what symbol is up.</p>
+      <div class='game'> Play My <a class='link' href ='https://alekscarr.github.io/tic-tac-toe'>Tic-Tac-Toe</a> game.
+       Also See the <a class='link' href='https://github.com/AleksCarr/tic-tac-toe'>code</a></div>
 
     <h2>Choose your own adventure game</h2>
+    <img class='dom' src = 'images/dom-adventure.gif'/>
     <p>A dom adventure game where we used dom methods to make our adventure game we created in first js
       and convert it so it can be played in a web based game. You make decisions as to
       what way to go and will display the next scene based on that decision.</p>
+      <div class='game'>Play my <a class='link' href='https://alekscarr.github.io/dom-adventure-game'>Dom-adventure-game.</a>
+        Here is my <a class='link' href='https://github.com/AleksCarr/dom-adventure-game/'>code</a></div>
 
     <h2>Responsive Landing Page </h2>
-    <p>Responsive landing page where we were introduced to media queries and made the program responsive to a mobile first design.
+    <img class='responsive, first' src = 'images/Screen Shot 2020-11-18 at 4.01.23 PM.png'/>
+    <p class='text'>Responsive landing page where we were introduced to media queries and made the program responsive to a mobile first design.
       We had to re create a website that was given to us and adding respponsiveness to make it
       look exactly like the website</p>
+      <div class='game'>Here is the code for the responsive landing page. At <a class='link' href = 'https://github.com/AleksCarr/responsive-landing-page'>Github.com</a></div>
 
-    <h2>First CSS Project</h2>
-    <p>Recreating websites where we used CSS to recreate the websites it was one of our first projects with css.
+    <h2 class='css'>First CSS Project</h2>
+
+    <img class='first' src = 'images/Screen Shot 2020-11-24 at 2.51.13 PM.png'/>
+    <p class='text'>Recreating websites where we used CSS to recreate the websites it was one of our first projects with css.
       We had to recreate websites from Instagram to Github and even Our school website.
       While tying to figure out the CSS that went along with it.</p>
+      <div class='game'>Here is my code of my websites. At <a class='link' href ='https://github.com/AleksCarr/more-css-practice'>Github.com</a></div>
   </section>
 
 
   <footer>
-    To view other projects go to <a href='https://github.com/AleksCarr?tab=repositories'>github.com/AleksCarr</a>
+    <div class='texts'>To view other projects go to <a class='link' href='https://github.com/AleksCarr?tab=repositories'>github.com/AleksCarr</a></div>
     <adress>
-      Contact me at <a href='mailto:aleks.carr@outlook.com'> aleks.carr@outlook.com</a> or at<a href='mailto:atcarr201@stevenscollege.edu'>
-        atcarr201@stevenscollege.edu</a>
+      <div class='texts'>Contact me at <a class='link'href='mailto:aleks.carr@outlook.com'> aleks.carr@outlook.com</a> or at<a class='link'href='mailto:atcarr201@stevenscollege.edu'>
+        atcarr201@stevenscollege.edu</a></div>
     </adress>
   </footer>
 </body>

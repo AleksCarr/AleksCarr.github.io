@@ -13,20 +13,20 @@ aside {
   color: white;
   position: -webkit-sticky;
   position: sticky;
-  top:0;
+  top: 0;
   padding: 0px;
   border: 0.5px solid #01796f;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-body{
+body {
   background-color: #63c5da;
 }
 
-.resume{
+.resume {
   width: 40%;
   display: block;
   margin-left: auto;
@@ -44,24 +44,25 @@ body{
   color: black;
 }
 
-.nav{
+.nav {
   color: white;
   text-decoration: none;
 }
-header{
+
+header {
   position: relative;
   text-align: center;
   color: white;
   background-color: gray;
 }
 
-h1{
+h1 {
   position: absolute;
   top: 40%;
   left: 40%;
 }
 
-footer{
+footer {
   line-height: 50px;
   background-color: #C0C0C0;
   color: black;
@@ -80,7 +81,7 @@ footer{
   line-height: 50px;
 }
 
-.first{
+.first {
   width: 40%;
   height: 40%;
   margin-left: 350px;
@@ -89,19 +90,20 @@ footer{
   background-color: gray;
 }
 
-.css{
+.css {
   margin-left: 250px;
 }
 
-.text{
+.text {
   margin-left: 280px;
+  font-size:30px;
 }
 
-.game{
+.game {
   font-size: 25px;
   margin-left: 200px;
 }
 
-.texts{
-  margin-left:200px;
+.texts {
+  margin-left: 200px;
 }

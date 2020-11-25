@@ -3,26 +3,31 @@
 
 <head>
   <meta charet='UTF-8'>
+  <link rel='stylesheet' href='styles.css' />
   <title>Aleks Carrs Bio Page</title>
 </head>
-
-<body>
-  <header>
-    <h1>Aleks Carrs Biography</h1>
-    <aside>
-      <nav>
-        Home
-        Projects
-        Resume
-        Biography
-      </nav>
-    </aside>
-  </header>
+<header>
+  <h1>Aleks Carrs Bioagraphy Page</h1>
+  <img class='header' src='images/IMG_2021.JPG' />
+</header>
+<aside>
+  <nav>
+    <ul>
+      <li><a class='nav' href='index.html'>Home</a></li>
+      <li><a class='nav' href='projects.html'>Projects</a></li>
+      <li><a class='nav' href='resume.html'>Resume</a></li>
+      <li><a class='nav' href='bio.html'>Biography</a></li>
+    </ul>
+  </nav>
+</aside>
 
   <body>
-    <p>
-      I was born June 3rd 2001 in Binghamton New York my family consists of my mon and dad and my sister.
-      I live in New milford Pennsylvania where I went to school at Blue Ridge School District
+    <section>
+      <div class='row'>
+        <img class='flute' src = 'images/Gerald_G_Flute.svg'/>
+    <p class='bio'>
+      I was born June 3rd 2001 in Binghamton New York my family consists of my mom and dad and my sister.
+      I live in New milford Pennsylvania where I went to school at Blue Ridge School District.
       When I was in school I was interested in being part of the music program but hated to sing
       so I joined band which was mandatory in fifth grade but non mandatory all the other years.
       I played Flute which is a musical instrument that produces a sound when blowing
@@ -33,13 +38,27 @@
       After those two classes I knew I was interested in this sort of stuff so that's why
       I took this class at Thaddeus Stevens College.
     </p>
-    Here are some photos that I took:
-
+    <img class='me' src = 'images/IMG_3894.PNG'/>
+  </div>
+    <div class='photo'>Here are some photos that I took:</div>
+  <div class='firstrow'>
+    <div class='photo'>These are from Florida</div>
+    <img class='myphoto' src='images/IMG_1769.PNG'/>
+    <img class='myphotos' src='images/IMG_3040.JPG'/>
+    <img class='myphotos' src='images/IMG_1657.JPG'/>
+</div>
+<div class='secondrow'>
+  <div class='photo'>These are from Hawaii</div>
+  <img class='myphotos' src='images/IMG_2020.JPG'/>
+  <img class='myphoto' src='images/IMG_3685.JPG'/>
+  <img class='myphoto' src='images/IMG_3723.JPG'/>
+</div>
+</section>
     <footer>
-      To view other projects go to <a href='https://github.com/AleksCarr?tab=repositories'>github.com/AleksCarr</a>
+      <div class='texts'>To view other projects go to <a class='link' href='https://github.com/AleksCarr?tab=repositories'>github.com/AleksCarr</a></div>
       <adress>
-        Contact me at <a href='mailto:aleks.carr@outlook.com'> aleks.carr@outlook.com</a> or at<a href='mailto:atcarr201@stevenscollege.edu'>
-          atcarr201@stevenscollege.edu</a>
+        <div class='texts'>Contact me at <a class='link' href='mailto:aleks.carr@outlook.com'> aleks.carr@outlook.com</a> or at<a class='link' href='mailto:atcarr201@stevenscollege.edu'>
+            atcarr201@stevenscollege.edu</a></div>
       </adress>
     </footer>
   </body>

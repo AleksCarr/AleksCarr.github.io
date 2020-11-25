@@ -107,3 +107,46 @@ footer {
 .texts {
   margin-left: 200px;
 }
+
+.bio {
+  font-size: 30px;
+  border-radius: 2px;
+  border: 5px solid #fff;
+  border-color: brown;
+}
+
+.flute {
+  width: 40%;
+  height: 40%;
+  margin-right: 100px;
+
+}
+
+.me{
+  width: 20%;
+  height: 20%;
+  margin-left: 100px;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+}
+
+.photo {
+  font-size: 25px;
+}
+
+.myphoto{
+  width: 20%;
+  height: 20%;
+}
+
+.myphotos{
+  height: 60%;
+  width: 27%;
+}
+
+.secondrow{
+  margin-left: 200px;
+}

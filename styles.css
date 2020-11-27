@@ -8,7 +8,7 @@ aside {
   margin-left: 0px;
   float: left;
   font-size: 40px;
-  line-height: 230px;
+  line-height:200px;
   background-color: #01796f;
   color: white;
   position: -webkit-sticky;
@@ -149,4 +149,48 @@ footer {
 
 .secondrow{
   margin-left: 200px;
+}
+
+.title{
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.mini{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.about,
+.projects,
+.biography,
+.Res{
+  border: 0.5px solid;
+  border-color: black;
+  display: block;
+  padding: 50px;
+  background-color: gray;
+  color: white;
+}
+
+
+.about{
+  margin-right: 700px;
+  margin-left: 300px;
+}
+
+.Res{
+  margin-right: 100px;
+  margin-left: 1000px;
+}
+
+.biography{
+  margin-right: 700px;
+  margin-left: 300px;
+}
+
+.projects {
+  margin-left: 1000px;
+  margin-right: 100px;
 }
